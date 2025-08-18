@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<style>
+    .all{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+    .form-1{
+        border: 1px solid black;
+        margin-left: 60px;
+        padding: 30px;
+        height: 600px;
+        width: 350px;
+        }
+    .form-2{
+        border: 1px solid black;
+        margin-left: 60px;
+        padding: 30px;
+        background-color: #CCFF66;
+        }
+    .PD{
+        display: flex;
+        justify-content: space-between;
+    }
+    .form-3
+    {
+        border: 1px solid black;
+        margin-left: 60px;
+        padding: 30px;
+        height: 450px;
+        width: 750px;
+        background-color: #0f6e75;
+    }
+</style>
+<body>
+    <div class="all">
+        <div class="form-1">
+        <h1>Registration Form</h1>
+        <br><br>
+        <form action="">
+            <label for="Fname">First Name:</label>
+            <input type="text" name ="Fname" id="Fname" placeholder="Enter your first name">
+            <br>
+            <label for="Lname">Last Name:</label>
+            <input type="text" name ="Lname" id="Lname" placeholder="Enter your Last name">
+            <br>
+            <label for="">Email:</label>
+            <input type="Email" name ="Email" id="Email" placeholder="Enter your Email">
+            <br>
+            <label for="Pass">Password:</label>
+            <input type="password" name ="password" id="Pass" placeholder="Enter your Password">
+            <br>
+            <label for="Gender">Gender:</label><br>
+            <label for="Male">Male:</label>
+            <input type="radio" name ="Gender" id="Male"><br>
+            <label for="Female">Female:</label>
+            <input type="radio" name ="Gender" id="Female"><br>
+            <label for="Others">Others:</label>
+            <input type="radio" name ="Gender" id="Others">
+            <br>
+            <label for="Age">Age:</label>
+            <input type="number" name ="Age" id="Age" placeholder="Enter your Age" min="1" max="120"><br>
+            <label for="">Preference:</label><br>
+            <label for="pre">Acrylic painting:</label>
+            <input type="checkbox" name ="Acrylic" id="pre" ><br>
+            <label for="pre">Oil painting:</label>
+            <input type="checkbox" name ="Oil" id="pre" ><br>
+            <label for="pre">Water color painting:</label>
+            <input type="checkbox" name ="water" id="pre" ><br>
+            <label for="">Select Occupation</label>
+            <select name="Occupation" id="Occupation">
+                <option value="Student">Student</option>
+                <option value="Teacher">Teacher</option>
+                <option value="Engineer">Engineer</option>
+                <option value="Doctor">Doctor</option>
+            </select><br>
+            <label for="Bio">Bio: <textarea name="Bio" id="Bio" cols="30" rows="10" placeholder="Write your Bio here"></textarea></label><br>
+            <input type="reset" value="RESET">
+            <input type="submit" value="SUBMIT">
+        </form>
+        
+    </div>
+        <center>
+            <div class="form-2">
+        <h1 style="color: red;">Personal Details</h1>
+        <br><br>
+        <form action="">
+            <label for="name">Name:</label>
+            <input type="text" name ="name" id="Fname" >
+            <br><br>
+            <label for="Pass">Password:</label>
+            <input type="password" name ="password" id="Pass">
+            <br><br>
+            <label for="">Email Id:</label>
+            <input type="Email" name ="Email" id="Email" >
+            <br><br>
+            <label for="Gender">Gender:</label>
+            <label for="Male">Male:</label>
+            <input type="radio" name ="Gender" id="Male">
+            <label for="Female">Female:</label>
+            <input type="radio" name ="Gender" id="Female">
+            <br><br>
+            <label for="contact" >Contact <span style="color: red;">*</span></label>
+            <input type="text" required min="1" max="10" name="contact" id="contact">
+            <br>
+            <h2 style="color: red;">Educational Qualification</h2>
+            <label for="">Degree: </label>
+            <select name="Degree" id="Degree" aria-placeholder="Select your Group">
+                <option value="" disabled selected hidden>-select your Group-</option>
+                <option value="B.Sc">B.Sc</option>
+                <option value="B.Com">B.com</option>
+                <option value="BBA">BBA</option>
+                <option value="BA">BA</option>
+            </select>
+            <br><br>
+            <label for="Engineering">Engineering :</label>
+             <select name="Engineering" id="Engineering">
+                <option value="" disabled selected hidden>-select your Group-</option>
+                <option value="B.Sc">CSE</option>
+                <option value="B.Com">ECE</option>
+                <option value="BBA">ME</option>
+                <option value="BA">CE</option>
+            </select>
+            <br><br>
+            <label for="Pre">Hobbies:</label>
+            <input type="checkbox" name ="Acrylic" id="pre" >
+            <label for="pre">Playing chess</label>
+            <input type="checkbox" name ="Oil" id="pre" >
+            <label for="pre">Reading Books</label>
+            <br><br>
+            <label for="Bio">Address:</label>
+            <br><br>
+            <textarea name="Bio" id="Bio" cols="50" rows="5" ></textarea>
+            <br><br>
+            <label for="file">Attch Resume:</label>
+            <input type="file" name="file" id="file">
+            <br><br><br>
+            <input type="submit" value="        SUBMIT        ">
+        </form>
+        
+    </div>
+        </center>
+        <div class="form-3">
+        <center>
+            <h1 style="color: aliceblue;">Application Form</h1>
+        </center>
+        <br><br>
+        <form action="">
+           <div class="PD">
+             <div>
+                <label for="name" style="color: aliceblue;">Name:</label>
+                <input type="text" name ="name" id="Fname" >
+             </div>
+                <div>
+                    <label for="Lname" style="color: aliceblue;">Last Name:</label>
+                    <input type="text" name ="Lname" id="Lname" >
+                </div>
+            </div>
+            <br>
+            <div class="PD">
+                <div>
+                    <label for="dob" style="color: aliceblue;">Date of birth:</label>
+                    <input type="date" name ="dob" id="dob">
+                </div>
+                    <div>
+                    <label for="Age" style="color: aliceblue;">Age:</label>
+                    <input type="number" name ="Age" id="Age"  min="1" max="120">
+                </div>
+            </div>
+            <br>
+            <div class="PD">
+                <div>
+                    <label for="Gender" style="color: aliceblue;">Gender:</label>
+                    <select name="" id="Gender">
+                        <option value="" disabled selected hidden></option>
+                        <option value="male">male</option>
+                        <option value="Female">Female</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="Email" style="color: aliceblue;">Email Address:</label>
+                    <input type="Email" name ="Email" id="Email" >
+                </div>
+            </div>
+            <br>
+            <label for="position" style="color: aliceblue;">Positions Available:</label>
+            <input type="radio" name ="position" id="JD">
+            <label for="JD" style="color: aliceblue;">Junior Developer</label>
+            <input type="radio" name ="position" id="MLD">
+            <label for="MLD" style="color: aliceblue;">Mid-Level Developer</label>
+            <input type="radio" name ="position" id="SD">
+            <label for="SD" style="color: aliceblue;">Senior Developer</label>
+            <br><br>
+            <label for="PG" style="color: aliceblue;">Positions Available:</label>
+            <input type="radio" name ="PG" id="Java">
+            <label for="Java" style="color: aliceblue;">Java</label>
+            <input type="radio" name ="PG" id="JavaScript">
+            <label for="JavaScript" style="color: aliceblue;">JavaScript</label>
+            <input type="radio" name ="PG" id="Python">
+            <label for="Python" style="color: aliceblue;">Python</label>
+            <br><br>
+            <label for="Pass" style="color: aliceblue;">Password:</label>
+            <input type="password" name ="password" id="Pass">
+            <br><br>
+            <label for="Pass" style="color: aliceblue;">Confirm Password:</label>
+            <input type="password" name ="Confirm password" id="Pass">
+            <br><br>
+            <center>
+                <input type="submit" value="      SUBMIT      " style="background-color: red; text-decoration: none; color: aliceblue;">
+                <input type="reset" value="       RESET      " style="background-color: red; text-decoration: none; color: aliceblue;">
+            </center>
+        </form>
+        
+    </div>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
