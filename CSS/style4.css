@@ -1,0 +1,22 @@
+.navbar{
+    /* border: 2px solid; */
+    padding: 9px;
+    width: 800px;
+    border-radius: 25px;
+    background-color: #121212;
+    color: white;
+    margin-top: 40px;
+    position: relative;
+}
+.nav{
+    font-size: large;
+    display: flex;
+    justify-content: space-around;
+}
+.bi-x-square{
+    background-color: red;
+    
+}
+.bi-circle-fill{
+    color: green;
+}

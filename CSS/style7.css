@@ -1,0 +1,12 @@
+.nav{
+    border: 2px solid #c5c7c9b8;
+    justify-content: space-around;
+    display: flex;
+    padding: 15px;
+    font-weight: lighter;
+    font-size: medium;
+    background-color: #f8f9fa;
+
+    
+    
+}

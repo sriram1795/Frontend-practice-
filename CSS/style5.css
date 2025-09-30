@@ -1,0 +1,30 @@
+.navbar{
+    border: 2px solid;
+    padding: 8px;
+    width: 1000px;
+    border-radius: 15px;
+    background-color: #121212;
+    color: white;
+    margin-top: 40px;
+    position: relative;
+    height: 45px;
+
+}
+.nav{
+    font-size: large;
+    display:flex;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+}
+.icon{
+    /* font-size: medium; */
+    padding-bottom: 0px;
+
+}
+p{
+    font-size: small;
+}
+.bi-arrow-up-square-fill{
+    color: green;
+}
