@@ -1,0 +1,152 @@
+.image_container {
+    /* border: 2px solid; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-template-areas:
+        "a b"
+        "c b"
+        "c d"
+        "c f"
+        "c f"
+        "e h"
+        "g j"
+        "g j"
+        "i j"
+        "i j"
+        "k l"
+        "m l"
+        "m l";
+
+
+}
+
+.item>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.image_container>.item {
+    /* border: 2px solid black; */
+    /* height : 200px; */
+}
+
+.image-1 {
+    grid-area: a;
+}
+
+.image-2 {
+    grid-area: b;
+}
+
+.image-3 {
+    grid-area: c;
+}
+
+.image-4 {
+    grid-area: d;
+}
+
+.image-5 {
+    grid-area: e;
+}
+
+.image-6 {
+    grid-area: f;
+}
+
+.image-7 {
+    grid-area: g;
+}
+
+.image-8 {
+    grid-area: h;
+}
+
+.image-9 {
+    grid-area: i;
+}
+
+.image-10 {
+    grid-area: j;
+}
+
+.image-11 {
+    grid-area: k;
+}
+
+.image-12 {
+    grid-area: l;
+}
+
+.image-13 {
+    grid-area: m;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .image_container {
+
+        grid-template-areas:
+            "a b"
+            "c b"
+            "c d"
+            "c f"
+            "c f"
+            "e h"
+            "g j"
+            "g j"
+            "i j"
+            "i j"
+            "k l"
+            "m l"
+            "m l"
+        ;
+        grid-template-columns: repeat (2,1fr);
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .image_container {
+
+        grid-template-areas:
+            "a b"
+            "c d"
+            "e f"
+            "g h"
+            "i j"
+            "k l"
+            "m l"
+        ;
+        grid-template-columns:  repeat (2,1fr);
+    }
+
+
+}
+
+@media screen and (max-width: 767px) {
+    .image_container {
+
+        grid-template-areas:
+            "a"
+            "b"
+            "c"
+            "c"
+            "d"
+            "e"
+            "f"
+            "g"
+            "h"
+            "i"
+            "j"
+            "j"
+            "k"
+            "l"
+            "m";
+        grid-template-columns: 1fr;
+    }
+
+
+}
